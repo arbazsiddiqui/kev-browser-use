@@ -1,0 +1,16 @@
+data/*
+!data/README.md
+.venv/
+__pycache__/
+*.onnx
+*.safetensors
+train/data/*
+!train/data/README.md
+!train/data/__init__.py
+!train/data/mind2web_train.py
+!train/data/to_kev_format.py
+!train/data/webchain.py
+train/runs/
+train/export/
+artifacts/
+.DS_Store
