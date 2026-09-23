@@ -1,0 +1,21 @@
+{
+ "adapter": "jev",
+ "dataset_name": "1k",
+ "dataset_path": "data/eval_1k.jsonl",
+ "n": 1000,
+ "generated_at": "2026-09-21",
+ "restored": true,
+ "restored_note": "Per-row predictions were lost (results/ was git-ignored). Overall metrics restored verbatim from the results table printed in the run log of 2026-09-21: | jev | 0.479 | 0.827 | 0.435 | 0.731 | 1107 / 1006 |. Split metrics not recoverable.",
+ "metrics": {
+  "overall": {
+   "n": 1000,
+   "element_acc": 0.479,
+   "operation_acc": 0.827,
+   "step_success": 0.435,
+   "brier": 0.731,
+   "latency_mean_ms": 1107.0,
+   "latency_p50_ms": 1006.0
+  }
+ },
+ "per_row": []
+}
